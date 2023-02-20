@@ -1,3 +1,6 @@
 <template>
-  <h1>hello world!</h1>
+  <NavBar />
+  <SearchBar />
+
+  <NuxtPage />
 </template>

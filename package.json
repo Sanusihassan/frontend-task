@@ -16,6 +16,8 @@
     "happy-dom": "^8.6.0",
     "nuxt": "^3.2.2",
     "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1",
     "tailwindcss": "^3.2.7",
     "vitest": "^0.28.5"
   }

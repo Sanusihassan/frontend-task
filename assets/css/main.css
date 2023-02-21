@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.submit-form {
+    @apply border-l-4 border-gray-300 p-3;
+    @apply border-r-2 border-gray-300 p-3;
+}
+
+.submit-form .label {
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white capitalize
+}
+.submit-form .menu {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+}
+.submit-form input {
+    @apply bg-gray-50 border border-gray-300 placeholder-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 my-3
+}

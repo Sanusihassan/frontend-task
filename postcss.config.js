@@ -1,6 +1,9 @@
 module.exports = {
   plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+    plugins: {
+      postcssNested: require("postcss-nested")({ bubble: ["phone"] }),
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
-}
+};
